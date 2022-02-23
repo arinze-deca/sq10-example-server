@@ -1,0 +1,22 @@
+{
+  "name": "sq10server",
+  "version": "1.4.7",
+  "description": "web server for sq1o",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.ts",
+    "start": "ts-node app.ts",
+    "build": "tsc app.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.17.13",
+    "@types/node": "^17.0.19",
+    "express": "^4.17.3",
+    "nodemon": "^2.0.15",
+    "ts-node": "^10.5.0",
+    "typescript": "^4.5.5"
+  }
+}
